@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Prestige flowers</title>
+    {% load static %}
+    <link href="{% static 'media/icon.png' %}" rel="icon">
+    {% include "parts/styles.html" %}
+</head>
+<body>
+{% include "parts/_navbar.html" %}
+
+
+{% block main %}
+{% endblock main %}
+
+{% include "parts/_footer.html" %}
+
+{% include "parts/_js.html" %}
+
+</body>
+</html>
